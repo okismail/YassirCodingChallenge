@@ -1,0 +1,11 @@
+<suite name="WeatherStack">
+    <test name="API">
+        <classes>
+            <class name="tests.GetValidLocationWeather"></class>
+            <class name="tests.GetInvalidAccessKeySent"></class>
+            <class name="tests.GetInvalidLocationWeather"></class>
+            <class name="tests.GetNoAccessKeySent"></class>
+            <class name="tests.GetNoQuerySent"></class>
+        </classes>
+    </test>
+</suite>
