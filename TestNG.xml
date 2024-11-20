@@ -1,4 +1,4 @@
-<suite name="WeatherStack">
+<suite name="WeatherAndAdvice">
     <test name="API">
         <classes>
             <class name="tests.GetValidLocationWeather"></class>
@@ -6,6 +6,8 @@
             <class name="tests.GetInvalidLocationWeather"></class>
             <class name="tests.GetNoAccessKeySent"></class>
             <class name="tests.GetNoQuerySent"></class>
+            <class name="tests.GetRandomAdvice"></class>
+            <class name="tests.GetRandomAdviceIncorrectFieldName"></class>
         </classes>
     </test>
 </suite>

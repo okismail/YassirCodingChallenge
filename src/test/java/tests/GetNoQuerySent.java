@@ -1,13 +1,13 @@
 package tests;
 
-import Utilis.BaseTestClass;
+import Utilis.BaseTest;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetNoQuerySent extends BaseTestClass {
+public class GetNoQuerySent extends BaseTest {
     @Test
     public void getNoQuerySent() {
         Response response = given()

@@ -1,13 +1,13 @@
 package tests;
 
-import Utilis.BaseTestClass;
+import Utilis.BaseTest;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 
-public class GetValidLocationWeather extends BaseTestClass {
+public class GetValidLocationWeather extends BaseTest {
     @Test
     public void getValidLocationWeather() {
         Response response = given()
