@@ -1,21 +1,17 @@
-package tests;
+package tests.API;
 
-import Utilis.BaseTest;
+import Utilis.TestBase;
+import io.restassured.RestAssured;
 import io.restassured.response.Response;
-import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class GetRandomAdvice extends BaseTest {
-    @BeforeClass
-    public void init() {
-        setBaseURI("https://api.adviceslip.com/advice");
-    }
-
+public class GetRandomAdvice extends TestBase {
     @Test
     public void getRandomAdvice() {
+        RestAssured.baseURI = "https://api.adviceslip.com/advice";
         Response response = given()
                 .get();
         response.then().assertThat().statusCode(200);

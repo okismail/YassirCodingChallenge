@@ -1,13 +1,13 @@
 <suite name="WeatherAndAdvice">
     <test name="API">
         <classes>
-            <class name="tests.GetValidLocationWeather"></class>
-            <class name="tests.GetInvalidAccessKeySent"></class>
-            <class name="tests.GetInvalidLocationWeather"></class>
-            <class name="tests.GetNoAccessKeySent"></class>
-            <class name="tests.GetNoQuerySent"></class>
-            <class name="tests.GetRandomAdvice"></class>
-            <class name="tests.GetRandomAdviceIncorrectFieldName"></class>
+            <class name="tests.API.GetValidLocationWeather"></class>
+            <class name="tests.API.GetInvalidAccessKeySent"></class>
+            <class name="tests.API.GetInvalidLocationWeather"></class>
+            <class name="tests.API.GetNoAccessKeySent"></class>
+            <class name="tests.API.GetNoQuerySent"></class>
+            <class name="tests.API.GetRandomAdvice"></class>
+            <class name="tests.API.GetRandomAdviceIncorrectFieldName"></class>
         </classes>
     </test>
 </suite>

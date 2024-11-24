@@ -25,8 +25,16 @@ ___
 2- Check the response when sending the incorrect field name
 
 ___
+
 The project is divided in 2 parts, the "main" folder which has the setup and the BaseURI in "BaseTest" and the test case in the "test" folder. 
 Each test case is in a separate class so that it can be enabled, disabled, updated or deleted as needed. All the test cases are run from the "TestNG" file
+___
+
+
+Part 2
+-
+I wrote the code, but I could not run it as I was getting this error "WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131" I tried to google and search on ChatGPT but the issue was not resolved
+
 ___
 Part 3
 -
